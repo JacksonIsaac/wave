@@ -1,0 +1,14 @@
+[App]
+Name = "ai.h2o.wave.university"
+Version = "{{VERSION}}"
+Title = "Wave University"
+Description = "Wave interactive learning experience."
+Tags = ["APP_DEV"]
+
+[Runtime]
+Module = "university"
+RoutingMode = "BASE_URL"
+
+[[Env]]
+Name = "H2O_WAVE_PUBLIC_DIR"
+Value = "/assets/@../../app/static/"
